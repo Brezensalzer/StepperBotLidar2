@@ -14,3 +14,9 @@ To complete the mechanical build, the following parts are needed:
 - GT2 timing belt 200mm
 
 The drive pulley on the stepper motor has 30 teeth, the pulley on the turntable has 54 teeth. One full step (1.8°) of the stepper motor is transmitted to a 1° step on the turntable.
+
+Short video clip: https://youtu.be/fx5sSlf0POA
+
+<p align="center">
+  <img src="./IMG_0204.JPG" width="400"/>
+</p>
