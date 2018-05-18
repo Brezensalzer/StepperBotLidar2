@@ -12,6 +12,7 @@ To complete the mechanical build, the following parts are needed:
 - ca. 2cm of 10mm aluminium pipe
 - Slip ring with 22m flange, 6 wires
 - GT2 timing belt 200mm
+- Optional: Pololu Mini Pushbutton Power Switch with Reverse Voltage Protection, LV
 
 The drive pulley on the stepper motor has 30 teeth, the pulley on the turntable has 54 teeth. One full step (1.8°) of the stepper motor is transmitted to a 1° step on the turntable.
 
