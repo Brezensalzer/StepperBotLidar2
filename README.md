@@ -1,6 +1,12 @@
 # StepperBotLidar2
 
-Rotating 360 degree Lidar based on the TF Mini sensor. This is part of a larger robot project. 
+Rotating 360 degree Lidar based on the TF Mini sensor. This is a part of a larger robot project. 
+The whole rover is "layered" in three slices:
+
+- the chassis layer: https://github.com/Brezensalzer/StepperBotChassis
+- the control layer: https://github.com/Brezensalzer/StepperBotController
+- the sensor layer: https://github.com/Brezensalzer/StepperBotLidar2
+
 Arduino Code is for a Bluepill board but should be easily adaptable to other boards. 
 Openscad, FreeCAD drawings and STL files are provided for 3D printing.
 
@@ -21,6 +27,3 @@ Short video clip: https://youtu.be/fx5sSlf0POA
 <p align="center">
   <img src="./IMG_0204.JPG" width="400"/>
 </p>
-
-Other parts of the StepperBot rover see:
-- Chassis: https://github.com/Brezensalzer/StepperBotChassis
