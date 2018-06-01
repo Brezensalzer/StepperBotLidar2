@@ -16,7 +16,7 @@ To complete the mechanical build, the following parts are needed:
 - Pololu DRV8834 Low-Voltage Stepper Motor Driver Carrier
 - Ball bearing SS6000ZZ 26x10x8 V2A
 - ca. 2cm of 10mm aluminium pipe
-- Slip ring with 22mm flange, 6 wires
+- Slip ring with 12.5mm, 300rpm, 6 wires
 - GT2 timing belt 200mm
 - Optional: Pololu Mini Pushbutton Power Switch with Reverse Voltage Protection, LV
 
