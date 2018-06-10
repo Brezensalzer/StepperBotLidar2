@@ -112,13 +112,15 @@ void loop() {
     powerLidar(true);
     delay(100);
     tfmini.setSingleScanMode();
+
+    // workaround for first measurement running wild
+    // result is ignored
+    tfmini.externalTrigger();
+    distance = tfmini.getDistance();
+    strength = tfmini.getRecentSignalStrength();
     
     for (angle = 0; angle < 360; angle = angle + 1)
     {
-      // Wait some short time before taking the next measurement
-      // scan rate of TFMini is 100 Hz
-      // delay(scan_delay);  
-
       // Take single measurement 
       tfmini.externalTrigger();
       distance = tfmini.getDistance();
