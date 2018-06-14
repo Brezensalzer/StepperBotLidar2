@@ -6,6 +6,7 @@ The whole rover is "layered" in three slices:
 - the chassis layer: https://github.com/Brezensalzer/StepperBotChassis
 - the control layer: https://github.com/Brezensalzer/StepperBotController
 - the sensor layer: https://github.com/Brezensalzer/StepperBotLidar2
+- the ground station code: https://github.com/Brezensalzer/StepperBotGroundStation (with BreezySLAM support!)
 
 Arduino Code is for a Bluepill board but should be easily adaptable to other boards. 
 Openscad, FreeCAD drawings and STL files are provided for 3D printing.
